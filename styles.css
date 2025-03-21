@@ -18,7 +18,8 @@ body {
   box-sizing: border-box;
 }
 
-.container, .container-down {
+.container,
+.container-down {
   background-color: #de8b8b;
   border: 8px solid #4a0707;
   box-shadow: 16px 16px 0px #4a0707;
@@ -111,12 +112,14 @@ button:active {
 }
 
 @media (max-width: 576px) {
-  .container, .container-down {
+  .container,
+  .container-down {
     border-width: 6px;
     box-shadow: 10px 10px 0px #4a0707;
   }
 
-  button, input[type="text"] {
+  button,
+  input[type="text"] {
     box-shadow: 6px 6px 0px #4a0707;
   }
 
@@ -131,9 +134,14 @@ button:active {
     padding: 10px;
   }
 
-  .container, .container-down {
+  .container,
+  .container-down {
     border-width: 4px;
     padding: 15px;
     box-shadow: 8px 8px 0px #4a0707;
   }
+}
+
+.hidden {
+  display: none;
 }

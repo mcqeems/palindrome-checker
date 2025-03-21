@@ -11,17 +11,18 @@
     />
 
     <link rel="stylesheet" href="styles.css" />
+
     <title>Palindrome Checker</title>
   </head>
   <body>
     <h2 class="fira-code-normal">McQeem's</h2>
     <h1>Palindrome Checker</h1>
     <div class="container">
-      <p class="word-check-result"></p>
+      <p class="word-check-result hidden" id="result"></p>
       <p>Enter in a text to check for a palindrome:</p>
       <br />
-      <input type="text" placeholder="Insert here..." />
-      <button>Check</button>
+      <input type="text" placeholder="Insert here..." id="text-input" />
+      <button id="check-btn">Check</button>
     </div>
     <div class="container-down">
       <h3>What is Palindrome?</h3>
@@ -31,5 +32,6 @@
         forward and backward, ignoring punctuation, case, and spacing.
       </p>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
